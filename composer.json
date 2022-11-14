@@ -1,0 +1,23 @@
+{
+    "name": "mex-vision/theframework",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MexVision\\Theframework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mex-vision",
+            "email": "97226540+mex-vision@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/http-foundation": "6.2.x-dev",
+        "symfony/routing": "6.2.x-dev",
+        "symfony/error-handler": "6.2.x-dev",
+        "illuminate/database": "10.x-dev",
+        "illuminate/events": "10.x-dev"
+    }
+}
